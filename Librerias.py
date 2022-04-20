@@ -106,9 +106,48 @@ f3 = [1, 5, 6, 9, 10]
 matriz = np.array([f1, f2, f3])
 trasp = matriz.T
 
-#cosa
-#cosa2
+c = [[3, 1, 9], [7, 2, 4],[8, 6, 6]]
+d = [[3, 1, 9], [7, 2, 5],[8, 6, 6]]
 
+nc = np.array(c)
+nd = np.array(d)
+
+# Validar que los sean iguales
+
+nc == nd
+
+# multiplicar por un escalar
+
+nc * 2
+
+# elevar al cuadrado
+
+nc ** 2
+
+# filtrado de elementos
+
+nc[nc < 5]
+
+# Fila uno todas las columnas 
+nc[1, :]
+
+# Todas las filas de la columna uno
+nc[:, 1]
+
+nc[2, 1:2]
+
+nc[2, 1:3]
+
+nc[2, 1:]
+
+
+# Matriz aleatoria de números enteros
+
+ma = np.random.randint(20, size=(5,5))
+ma = np.random.randint(20, size=(5,5))
+
+# Random de números decimales
+np.random.uniform(0,5, size = (5,5))
 
 
 
