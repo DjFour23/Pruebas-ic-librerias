@@ -149,7 +149,7 @@ ma = np.random.randint(20, size=(5,5))
 # Random de números decimales
 np.random.uniform(0,5, size = (5,5))
 
-
+#Cosa 1
 
 
 
