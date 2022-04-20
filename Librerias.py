@@ -150,7 +150,7 @@ ma = np.random.randint(20, size=(5,5))
 np.random.uniform(0,5, size = (5,5))
 
 #Cosa 1
-
+#Cosa 2
 
 
 
